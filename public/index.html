@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LearnMate - AI Quiz Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+</head>
+<body>
+  <h1>LearnMate – AI Quiz Assistant</h1>
+
+  <div class="upload-btn-wrapper">
+    <div class="upload-btn" onclick="document.getElementById('pdf-upload').click()">
+      📄 Choose PDF
+      <input type="file" id="pdf-upload" accept="application/pdf" style="display: none;" />
+    </div>
+  </div>
+
+  <div id="status"></div>
+
+  <button onclick="generateQuiz()">Generate Quiz</button>
+
+  <div id="quiz-output"></div>
+
+  <button id="submit-quiz" style="display: none;">Submit Quiz</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
