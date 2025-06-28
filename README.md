@@ -22,12 +22,12 @@ LearnMate serves as an intelligent self-assessment tool for:
 
 ## Technology Stack
 
-| Component     | Technology                         |
+| Component     | Technology                          |
 |---------------|-------------------------------------|
 | Frontend      | HTML, CSS, JavaScript               |
 | AI Model      | Groq API (LLaMA 3 - 8B)             |
 | PDF Parsing   | Mozilla pdf.js                      |
-| Deployment    | GitHub Pages / Vercel / Netlify     |
+| Deployment    | Vercel                              |
 
 ## Setup Instructions
 
