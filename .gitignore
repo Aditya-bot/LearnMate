@@ -1,1 +1,2 @@
-.vercel
+# Ignore Vercel config directory
+.vercel/
